@@ -3,7 +3,6 @@ let value = [10, 14, 8, 11, 33]; //rupees
 let capacity = 30;
 
 function maxProfitKnapsack(weight, value, capacity) {
-  console.log(weight, value, capacity);
   if (!weight.length || capacity === 0) {
     return 0;
   } else if (weight[weight.length - 1] <= capacity) {
